@@ -1,0 +1,35 @@
+@import url("../css/layout/content-table.css");
+@import url("../css/layout/dialog-adding.css");
+@import url("../css/layout/header-adding.css");
+@import url("../css/layout/header.css");
+@import url("../css/layout/menu.css");
+@import url("../css/layout/page-list.css");
+@import url("../css/layout/search-box.css");
+@import url("../css/layout/content-footer.css");
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    /* display: grid;
+    grid-template-rows: 60px calc(100vh - 60px);
+    grid-template-columns: 200px calc(100% - 200px);
+    background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    width: calc(100% - 200px);
+}

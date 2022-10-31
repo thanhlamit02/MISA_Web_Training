@@ -1,0 +1,40 @@
+.header-adding {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 76px;
+}
+
+.adding-text {
+    position: relative;
+    margin: 0px 900px 0 0;
+    font-size: 20px;
+    color: rgba(87, 87, 87, 0.9);
+}
+
+.adding-btn {
+    display: flex;
+    align-items: center;
+    width: 178px;
+    height: 40px;
+    margin-right: 32px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #019162;
+    cursor: pointer;
+}
+
+.fa-user-plus {
+    font-size: 16px;
+    color: #fff;
+    margin-left: 4px;
+}
+
+.adding-btn__text {
+    padding-left: 16px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}

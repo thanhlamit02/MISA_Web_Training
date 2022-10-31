@@ -1,0 +1,50 @@
+.content-table {
+    position: absolute;
+    left: 288px;
+    top: 168px;
+    font-size: 16px;
+    text-align: left;
+    min-height: 320px;
+    height: 65%;
+    overflow-y: scroll;
+}
+
+.customers-table {
+    overflow-y: scroll;
+    border-collapse: collapse;
+}
+
+tbody tr.row-selected {
+    background-color: #019160;
+    color: #fff;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    font-family: Bold-Font;
+    background-color: #f6f6f6;
+    z-index: 10;
+    color: #181818;
+}
+
+tr {
+    height: 48px;
+    color: #3d3d3d;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(243, 242, 242);
+}
+
+tr:hover {
+    background-color: rgb(224, 223, 223);
+    cursor: pointer;
+}
+
+th,
+td {
+    font-family: Regular-Font;
+    border: 1px #ddd;
+    padding: 0 21px 0 0;
+}

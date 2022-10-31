@@ -1,0 +1,43 @@
+.menu {
+    background-color: rgb(255, 255, 255);
+    width: 240px;
+    height: 1000px;
+    margin-top: 61px;
+    border-right: 1px solid #ddd;
+}
+
+.menu-btn,
+.menu-btn__click {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    color: rgba(87, 87, 87, 0.9);
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    background-color: #e5e5e5;
+    color: #000;
+}
+
+.menu-btn__click {
+    background-color: #019162;
+    color: #fff;
+}
+
+.fa-chart-simple,
+.fa-file-invoice,
+.fa-cart-shopping,
+.fa-user-group,
+.fa-gear {
+    position: absolute;
+    font-size: 18px;
+    margin-left: 32px;
+}
+
+.menu-btn__text {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    margin-left: 68px;
+}

@@ -1,0 +1,49 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 260px;
+    height: 1000px;
+    border-right: 1px solid #ddd;
+    position: fixed;
+}
+
+.menu-logo {
+    max-width: 200px;
+    max-height: 60px;
+    cursor: pointer;
+    padding: 12px 0 12px 28px;
+}
+
+.menu-btn,
+.menu-btn__click {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    color: rgba(87, 87, 87, 0.9);
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    background-color: #e5e5e5;
+    color: #000;
+}
+
+.menu-btn__click {
+    background-color: #019162;
+    color: #fff;
+}
+
+i {
+    position: absolute;
+    font-size: 18px;
+    margin-left: 32px;
+}
+
+.menu-btn__text {
+    font-family: Regular-Font;
+    font-size: 16px;
+    font-weight: 450;
+    letter-spacing: 0.2px;
+    margin-left: 68px;
+}

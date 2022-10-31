@@ -1,0 +1,38 @@
+@import url("../css/layout/menu.css");
+@import url("../css/layout/header.css");
+@import url("../css/content/content.css");
+@import url("../css/content/content__table.css");
+@import url("../css/content/content__footer.css");
+@import url("../css/dialog/dialog-adding.css");
+@import url("../css/Toast message/success-toast.css");
+@import url("../css/delete form/delete-form.css");
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Bold-Font;
+    src: url(../assets/fonts/GoogleSans-Bold.otf);
+}
+
+@font-face {
+    font-family: Italic-Font;
+    src: url(../assets/fonts/GoogleSans-Italic.otf);
+}
+
+@font-face {
+    font-family: Regular-Font;
+    src: url(../assets/fonts/GoogleSans-Regular.otf);
+}
+
+@font-face {
+    font-family: Medium-Font;
+    src: url(../assets/fonts/GoogleSans-Medium.otf);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}

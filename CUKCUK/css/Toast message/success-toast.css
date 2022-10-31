@@ -1,0 +1,57 @@
+.toast-message {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 40%;
+    top: 20px;
+    background-color: #ffffff;
+    width: 30%;
+    height: 80px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(53, 53, 53, 0.493);
+    animation: topToDown .5s, downToTop 1s 3s forwards;
+    z-index: 10;
+}
+
+@keyframes topToDown {
+    from {
+        top: 0;
+    }
+    to {
+        top: 20px;
+    }
+}
+
+@keyframes downToTop {
+    from {
+        top: 20px;
+        opacity: 1;
+    }
+    to {
+        top: 0;
+        opacity: 0;
+    }
+}
+
+.toast-messenger__text {
+    padding-left: 60px;
+    font-size: 16px;
+    font-family: Bold-Font;
+    color: #000000;
+}
+
+.fa-circle-check {
+    position: absolute;
+    left: -16px;
+    color: #019162;
+    font-size: 32px;
+}
+
+.fa-xmark {
+    position: absolute;
+    right: 16px;
+    font-size: 28px;
+    color: #019162;
+    cursor: pointer;
+}

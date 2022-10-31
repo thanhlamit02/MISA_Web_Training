@@ -1,0 +1,21 @@
+.page-list {
+    display: flex;
+    margin-top: 20px;
+}
+
+.number-page {
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    padding: 4px 12px;
+}
+
+.btn-clicking,
+.number__hover:hover {
+    background-color: #019162;
+    border-radius: 50%;
+    color: #fff;
+}

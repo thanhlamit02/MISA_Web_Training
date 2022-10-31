@@ -1,0 +1,39 @@
+.content-table {
+    position: absolute;
+    left: 262px;
+    top: 180px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.customers-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tbody tr.row-selected {
+    background-color: #019160;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(243, 242, 242);
+}
+
+tr:hover {
+    background-color: rgb(197, 197, 197);
+    cursor: pointer;
+}
+
+th,
+td {
+    font-weight: 500;
+    padding: 4px 40px 4px 0;
+    border: 1px #ddd;
+}

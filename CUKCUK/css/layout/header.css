@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+    width: calc(100% - 250px);
+    position: fixed;
+    left: 260px;
+    top: 4px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-selection {
+    height: 48px;
+    width: 240px;
+    font-size: 16px;
+    font-family: Bold-Font;
+    border: none;
+    outline: none;
+    margin-right: 432px;
+    margin-left: 24px;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 64px;
+}
+
+.user__ava {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+}
+
+.user__name {
+    font-family: Medium-Font;
+    font-size: 14px;
+}
+
+.fa-right-to-bracket {
+    font-size: 16px;
+    margin-left: 178px;
+}
+
+.fa-right-to-bracket:hover {
+    cursor: pointer;
+    color: #019162;
+}
